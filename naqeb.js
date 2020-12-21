@@ -644,7 +644,7 @@ naqeb.on("message", zaid => {
       .addField("**__چەناڵەکەن__** : ", `→ ${naqeb.channels.size} `, true)
       .addField("**__میمبەرەکان__** : ", `→ ${naqeb.users.size} `, true)
       .addField("**__ناوی بۆتەکە__** : ", `→ ${naqeb.user.tag} `, true)
-      .addField("**دروست کەری بۆتەکە** : ", `→ nawe xot lera dane `)
+      .addField("**دروست کەری بۆتەکە** : ", `→ PASHA `)
 
       .setImage("")//rmek ba fle xot
       .setFooter(zaid.author.username, zaid.author.avatarURL);
