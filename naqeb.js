@@ -713,7 +713,7 @@ naqeb.on("message", async message => {
       .setAuthor(message.author.username, message.author.displayAvatarURL)
       .setThumbnail(message.author.avatarURL)
       .setTitle(
-        "**__کلیک لێرە بکە بۆ ئەوەی بۆت ئەکە ئینڤاتی سێرڤەری خۆت بکەی💖__**"
+        "**__https://discord.com/api/oauth2/authorize?client_id=790706674428149792&permissions=8&scope=bot💖__**"
       )
       .setURL(`https://discord.com/api/oauth2/authorize?client_id=790706674428149792&permissions=8&scope=bot`);//linke botaka lera dane
     message.channel.sendEmbed(invite);
@@ -724,7 +724,7 @@ naqeb.on("message", message => {
     let embed = new Discord.RichEmbed()
       .setAuthor(message.author.username)
       .setColor("RANDOM")
-      .addField(" سەپۆرتی سیرڤەر بەکەن", " linke server ");
+      .addField(" https://discord.gg/QJchjmCSAW ", " https://discord.gg/QJchjmCSAW ");
 
     message.channel.sendEmbed(embed);
   }
