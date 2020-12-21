@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+uconst Discord = require("discord.js");
 const naqeb = new Discord.Client();
 const invites = {};
 const wait = require("util").promisify(setTimeout);
@@ -761,4 +761,4 @@ naqeb.on("message", message => {
   }
 });
 
-naqeb.login("token bot");
+naqeb.login("naqeb.js");
