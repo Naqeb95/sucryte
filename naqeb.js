@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const naqeb = new Discord.Client();
-const invites = {};
+const invites = {https://discord.com/api/oauth2/authorize?client_id=790706674428149792&permissions=8&scope=bot};
 const wait = require("util").promisify(setTimeout);
 const moment = require("moment");
 const fs = require("fs");
@@ -761,4 +761,4 @@ naqeb.on("message", message => {
   }
 });
 
-naqeb.login("token bot");
+naqeb.login("TOg0jElE7iRTNUZ6XdJ-ysmpsvhpmrr2");
